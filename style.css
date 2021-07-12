@@ -1,0 +1,23 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+/* 用于需要动画的元素，手动添加到元素的class中 */
+.trans {
+    opacity: 1;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* 过渡辅助，自动使用 */
+.translating {
+    opacity: 0;
+}
+
+/* 过渡辅助，自动使用 */
+.translated {
+    opacity: 1;
+}
+
