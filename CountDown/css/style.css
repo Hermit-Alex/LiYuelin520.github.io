@@ -153,7 +153,7 @@ button:hover {
 
 /*--//wrapper--*/
 .coming-page-infohny {
-    background: url(../images/IMG_1495.JPG) no-repeat left;
+    background: url(../images/IMG_0936.JPG) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -169,7 +169,7 @@ button:hover {
 
 .coming-page-infohny:before {
     content: "";
-    background: rgb(146 3 3 / 10%);
+    /* background: rgb(146 3 3 / 10%); */
     position: absolute;
     top: 0;
     bottom: 0;
