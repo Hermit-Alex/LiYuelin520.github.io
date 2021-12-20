@@ -153,7 +153,7 @@ button:hover {
 
 /*--//wrapper--*/
 .coming-page-infohny {
-    background: url(../images/IMG_0936.JPG) no-repeat center;
+    background: url(../images/IMG_2021.JPG) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -169,7 +169,7 @@ button:hover {
 
 .coming-page-infohny:before {
     content: "";
-    /* background: rgb(146 3 3 / 10%); */
+
     position: absolute;
     top: 0;
     bottom: 0;
@@ -212,7 +212,7 @@ button:hover {
 }
 .coming-page-infohny h1 {
     margin: 0;
-    font-size: 86px;
+    font-size: 80px;
     font-weight: 400;
     color: #fff;
     line-height: 96px;
