@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				<div class="coming-block">
-					<h1>LiYuelin has arrived </h1>
+					<h1>Next Birthday is comming in</h1>
 					<div class="countdown">
 						<div class="countdown__days">
 							<div class="number"></div>
@@ -58,7 +58,7 @@
 		<script>
 			(() => {
 				// Specify the deadline date
-				const deadlineDate = new Date('December 24, 2021 19:35:00').getTime();
+				const deadlineDate = new Date('March 09, 2026 00:00:00').getTime();
 
 				// Cache all countdown boxes into consts
 				const countdownDays = document.querySelector('.countdown__days .number');
@@ -72,7 +72,7 @@
 					const currentDate = new Date().getTime();
 
 					// Calculate the distance between current date and time and the deadline date and time
-					const distance = currentDate - deadlineDate;
+					const distance = deadlineDate - currentDate;
 
 					// Calculations the data for remaining days, hours, minutes and seconds
 					const days = Math.floor(distance / (1000 * 60 * 60 * 24));
